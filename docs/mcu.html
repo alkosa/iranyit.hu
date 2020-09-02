@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/w3/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>//-->
@@ -57,102 +59,104 @@
         </div>
 
         <div class="jumbotron my-head">
-            <h1></h1>
             <div class="container">
-                <p><br></p>  
-                <h1>Elektronikai fejlesztés</h1>      
-                <p>Ellenállástól a Front End-ig. Az AlbaPartiscum Kft. elektronikai fejlesztésének a bemutatása.</p>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p><br></p>   
+                        <h1>Elektronikai fejlesztés</h1>   
+                        <h2>Mikrokontroller, SOC, Beágyazott rendszerek tervezése</h2>   
+                        <p>Ellenállástól a Front End-ig. Az AlbaPartiscum Kft. elektronikai fejlesztésének a bemutatása.</p>
+                        <p class="w3-text-grey">Központi vezérlő alapú elektronikai áramkörök tervezése, fejlesztése. Mikrokontroller, SOC, illetve beágyazott rendszer alapú elektronikus áramkörök tervezése.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p><br></p>  
+                        <img class="analog-pic" src="img/mcu_sch.png" alt="pcb.png" >
+                    </div>
+                </div>
             </div>
             <!--<div class="bg-image"></div>//-->
            <!--<img src="img/rest_to_frontend.png" alt="Nature" class="responsive" width="1200" height="400">//-->
         </div>
+        <div>
+            <!-- First Grid -->
+            <div class="w3-row-padding w3-padding-64 w3-container">
+                <div class="w3-content">
+                    <div class="w3-twothird">
+                        <h1>Mikrokontroller alapú rendszerek fogalma</h1>
+                        <h5 class="w3-padding-32"> 
+                            A mikrokontroller vagy mikrovezérlő egyetlen lapkára integrált, 
+                            általában vezérlési feladatokra optimalizált cél-számítógép. 
+                            A mikrokontroller egy mikroprocesszor kiegészítve az áramköri 
+                            lapkájára integrált perifériákkal.
+                        </h5>
+                        <a href="https://hu.wikipedia.org/wiki/Mikrovez%C3%A9rl%C5%91" target="_blank">hu.wikipedia.org<a>
+                    </div>
+                    <div class="w3-third w3-center">
+                        <img class="analog-pic" src="img/GE64LQFP_STM32-40.jpg" alt="pcb.png">
+                    </div>
+                </div>
+            </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="text-center" >
-                    <h2></h2>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card card_responsive" >
-                        <img class="card-img " src="img/resistor.png" alt="Card image">
-                        <div class="card-body" >
-                            <h4 class="card-title">Analóg és digitális áramkörök tervezése</h4>
-                            <p class="card-text">
-                                Érzékelő hálózatok tervezése, pl: hőmérséklet, páratartalom, nyomás, talajminőség, elmozdulás, stb.
-                                Digitális illetve analóg villamos jelek illesztése digitális vezérlőkhöz. Különböző jelszintű, 
-                                jel formájú, átviteli jellemzővel rendelkező jelalak illesztése programozható vezérlőhöz.
-                            </p>
-                            <a href="analog_digital.html" class="btn btn-primary">Tovább</a>
+            <!-- Second Grid -->
+            <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                <div class="w3-content">
+                    <div class="w3-twothird">
+                        <h1>SOC alapú rendszerek fogalma.</h1>
+                        <h5 class="w3-padding-32">
+                            Az egylapkás rendszer avagy angolul system on a chip vagy system 
+                            on chip (rövidítve: SoC vagy SOC) olyan integrált áramkör (IC) amely
+                             egy számítógép vagy más elektronikai rendszer összes komponensét 
+                             / összetevőjét egyetlen lapkára integrálva tartalmazza.
+                        </h5>
+                        <p class="w3-text-grey">
+                            A mikrovezérlőkkel való összehasonlításban ezek az eszközök
+                            a következő fokozatot képviselik. A mikrovezérlők tipikusan 100 KiB alatti
+                            (gyakran csak néhány KiB) RAM memóriát tartalmaznak és valóban egycsipes
+                            rendszerek, azonban az egylapkás rendszer – SoC – kifejezést a hatékonyabb 
+                            processzorokra használják, amelyek akár a Windows vagy Linux operációs 
+                            rendszerek asztali verzióihoz hasonló szoftverek futtatására is képesek...
+                        </p>
+                        <div>
+                        <a href="https://hu.wikipedia.org/wiki/Egylapk%C3%A1s_rendszer" target="_blank">hu.wikipedia.org<a>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card card_responsive" >
-                        <img class="card-img"  src="img/mcu.png" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Mikrokontroller, SOC, Beágyazott rendszerek tervezése</h4>
-                            <p class="card-text">
-                                Központi vezérlő alapú elektronikai áramkörök tervezése, fejlesztése. Mikrokontroller, SOC, illetve beágyazott rendszer alapú elektronikus áramkörök tervezése.
-                            </p>
-                            <a href="mcu.html" class="btn btn-primary">Tovább</a>
-                        </div>
+                    <div class="w3-third w3-center">
+                        <img class="analog-pic" src="img/STM32MP1.png" alt="pcb.png">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card card_responsive" >
-                        <img class="card-img" src="img/network.png" alt="Card image" >
-                        <div class="card-body">
-                            <h4 class="card-title">Hálózatok kezelése</h4>
-                            <p class="card-text">
-                                Az általunk tervezett valamilyen programozható központi vezérlőt tartalmazó elektronikus áramköröket képesek vagyunk ipari, 
-                                vagy nem ipari hálózathoz csatlakoztatni különböző illesztő áramkörök segítségével.
-                            </p>
-                            <a href="networks.html" class="btn btn-primary">Tovább</a>
-                        </div>
+            </div>
+
+            <!-- Second Grid -->
+            <div class="w3-row-padding w3-padding-64 w3-container">
+                <div class="w3-content">
+
+                    <div class="w3-twothird">
+                        <h1>Beágyazott rendszerek fogalma</h1>
+                        <h5 class="w3-padding-32">
+                            Egy beágyazott rendszer (angolul embedded system) olyan speciális célú számítógép,
+                            melyet egy konkrét feladat ellátására terveztek.
+                        </h5>
+                        <p class="w3-text-grey">
+                            Az általános célú számítógépekkel (mint amilyen például a személyi számítógép)
+                            szemben egy beágyazott rendszer csupán néhány előre meghatározott feladatot lát el,
+                            és sokszor tartalmazhat olyan feladat-specifikus mechanikus és elektronikus alkatrészeket,
+                            melyek nem találhatók egy általános célú számítógépben. Mivel a rendszer feladatai a tervezés
+                            idején is jól ismertek, a tervezők a feladatnak megfelelően tudják optimalizálni a rendszert,
+                            csökkenteni a költségét és méretét, növelni megbízhatóságát.
+                        </p>
+                        <a href="https://hu.wikipedia.org/wiki/Egylapk%C3%A1s_rendszer" target="_blank">hu.wikipedia.org<a></a>
+                        
+                    </div>
+                    <div class="w3-third w3-center">
+                        <img class="analog-pic" src="img/STM32MP1-Discovery-Board-Large.jpg" alt="pcb.png">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card card_responsive" >
-                        <img class="card-img " src="img/devops.png" alt="Card image">
-                        <div class="card-body" >
-                            <h4 class="card-title">DEV OPS</h4>
-                            <p class="card-text">
-                                A DevOps a szoftverfejlesztők és a szoftvereket üzemeltetők szoros együttműködésén alapuló gyakorlat. Egyesíti a szoftverfejlesztést (Development),
-                                és az üzemeltetést (Operation), ezzel meggyorsítva és hatékonyabbá téve a munkát. Fejlesztés során a Docker, docker compose szoftvereket használjuk.
-                            </p>
-                            <a href="devops.html" class="btn btn-primary">Tovább</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card card_responsive" >
-                        <img class="card-img"  src="img/backend.png" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">BACK END</h4>
-                            <p class="card-text">
-                                MySql alapú adatbázisok tervezése, kialakítása. NodeJs alapú szerver szoftverek készítése. PHP alapú szerver szoftverek készítése. C/C++ alapú szerver szoftverek készítése.
-                            </p>
-                            <a href="backend.html" class="btn btn-primary">Tovább</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card card_responsive" >
-                        <img class="card-img" src="img/frontend.png" alt="Card image" >
-                        <div class="card-body">
-                            <h4 class="card-title">FRONT END</h4>
-                            <p class="card-text">
-                                HTML5 alapú weboldalak készítése. Javascript, JS React könyvtár. CSS, JQuery programozási nyelvek használata weblapok készítésekor. Android applikációk készítése.
-                            </p>
-                            <a href="frontend.html" class="btn btn-primary">Tovább</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container p-3 my-3 bg-dark text-white">
-                    <h1>Elektronikai fejlesztési képességek</h1>
-                    <p>menedzsment, tervezés, fejlesztés, tesztelés, gyártás.</p>
-                    <a href="skills.html" class="btn btn-primary">Tovább</a>
-                </div>
+            </div>
+
+            <div class="container p-3 my-3 bg-dark text-white">
+                <h1>Elektronikai fejlesztési képességek</h1>
+                <p>menedzsment, tervezés, fejlesztés, tesztelés, gyártás.</p>
+                <a href="skills.html" class="btn btn-primary">Tovább</a>
             </div>
         </div>
 

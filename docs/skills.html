@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AP Elektronikai fejlesztés</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/w3/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>//-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <!-- Brand -->
+                <a class="navbar-brand" href="http://albapartiscum.hu" target="_blank">AlbaPartiscum</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://apit.hu" target="_blank">apit.hu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://kivit.hu" target="_blank">kivit.hu</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Projektek
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://loragrow.hu" target="_blank">Loragrow HUN</a>
+                                <a class="dropdown-item" href="https://loragrow.eu" target="_blank">Loragrow EU</a>
+                                <a class="dropdown-item" href="https://git.apit.hu" target="_blank">AP git</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Kapcsolat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="references.html">Referenciák</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="jumbotron my-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p><br></p>   
+                        <h1>Elektronikai fejlesztési képességek</h1>   
+                        <p>Ellenállástól a Front End-ig. Az AlbaPartiscum Kft. elektronikai fejlesztésének a bemutatása.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p><br></p>  
+                        <img class="analog-pic" src="img/rest_to_frontend.png" alt="pcb.png" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <!--  <div class="col-sm-8">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><h2>menedzsment,</h2></li>
+                        <li class="list-group-item"><h2>tervezés</h2></li>
+                        <li class="list-group-item"><h2>fejlesztés</h2></li>
+                        <li class="list-group-item"><h2>tesztelés</h2></li>
+                        <li class="list-group-item"><h2>gyártás</h2></li>
+                    </ul>
+                </div>
+                -->
+                <div class="card-reference card_responsive">
+                    <div class="card-body">
+                        <div class="col-sm-12">  
+                            <h1>Menedzsment, tervezés, fejlesztés, tesztelés, gyártás</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!--*************************************************************-->
+                <div class="col-sm-12">
+                    <br>
+                </div>
+                <div class="card-reference card_responsive">
+                    <div class="card-body">
+                        <div class="col-sm-12 ">
+                            <h2>Elektronikai fejlesztési projekt megszervezése</h2>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Egyedi elektronikai áramkörök, rendszerek tervezésének megvalósításnak, megszervezése. Projekt menedzsment, vevői kommunikáció. Egyedi termékfejlesztés végigvitele, végigkövetése, megszervezése, megvalósítása.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--*************************************************************-->
+                <div class="col-sm-12">
+                    <br>
+                </div>
+                <div class="card-reference card_responsive">
+                    <div class="card-body">
+                        <div class="col-sm-12 ">
+                            <h2>Nyomtatott áramköri lapok (PCB) tervezése</h2>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>Elektronikai tervező (CAD) szoftverek  segítségével, egyedi elektronikai áramkörök tervezése. Alkatrész kiválasztás, méretezés. Alkatrészek beszerzési lehetőségeinek megvizsgálása. Komponens library összeállítása (schematic symbol, PCB footprint, stb.) Kapcsolási rajz (schematic) készítése. Végleges kapcsolási rajz után a nyomtatott áramkör (PCB) megtervezése.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>Altium CAD szoftver</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="banner-pic" src="img/altium1.PNG" alt="pcb.png">
+                        </div>
+                        <div class="col-sm-12 ">
+                        <br>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="banner-pic" src="img/altium2.PNG" alt="pcb.png">
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>KICAD szoftver</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="banner-pic" src="img/kicad1.png" alt="pcb.png">
+                        </div>
+                        <div class="col-sm-12 ">
+                        <br>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="banner-pic" src="img/kicad2.png" alt="pcb.png">
+                        </div>
+                    </div>
+                </div>
+                <!--*************************************************************-->
+                <div class="col-sm-12">
+                    <br>
+                </div>
+                <div class="card-reference card_responsive">
+                    <div class="card-body">
+                        <div class="col-sm-12 ">
+                            <h2>Egyedi villamos rendszerek tervezése</h2>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Egyedi erős, és gyengeáramú hálózatok tervezése CAD szoftver segítségével. PLC-és rendszerek tervezése.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>Qelectrotech CAD szoftver</h3>
+                        </div>
+                        <div class="col-sm-8 " >
+                            <img class="banner-pic" src="img/qelectrotech1.png" alt="pcb.png">
+                        </div>
+                        <div class="col-sm-12">
+                        <br>
+                        </div>
+                        <div class="col-sm-8 ">
+                            <img class="banner-pic" src="img/qelectrotech2.png.png" alt="pcb.png">
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h4>Gyengeáram fogalma</h4>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Gyengeáramú az a villamos berendezés, ahol a villamos áramot nem munkavégzésre használják. A gyengeáramú rendszerek kategóriájába beletartozik az analóg és digitális jelátvitel technika, az analóg elektronika, a vezérléstechnika és az ún. informatikai beágyazott rendszerek.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <a href="https://hu.wikipedia.org/wiki/Gyenge%C3%A1ram" target="_blank">hu.wikipedia.org<a>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h4>Erősáram fogalma</h4>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Az erősáramú jelzőt az elektromos áram munkavégzési és energiaátviteli felhasználási területének megjelölésére használjuk, a gyengeáramú szakterülettől való megkülönböztetés céljára.
+                                Az erősáramú berendezések az élettanilag emberre veszélyes ("életveszélyes") feszültség- és áramtartományban, jellemzően 50 V-nál nagyobb feszültségen működnek, ellentétben a gyengeáramú berendezésekkel, amelyek jellemzően, de nem kizárólagosan az élettanilag veszélytelenebb, 0-50 V-os, és milliamper (mA) áramtartományban működnek.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <a href="https://hu.wikipedia.org/wiki/Er%C5%91s%C3%A1ram%C3%BA" target="_blank">hu.wikipedia.org<a>
+                        </div>
+                    </div>
+                </div>
+                <!--*************************************************************-->
+                <div class="col-sm-12">
+                    <br>
+                </div>
+                <div class="card-reference card_responsive">
+                    <div class="card-body">
+                        <div class="col-sm-12 ">
+                            <h2>Villamos tesztelés</h2>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Különböző mérőműszerek használatával (pl. oszcilloszkóp, függvénygenerátor, különböző típusú áram és feszültségmérők, stb.)  validációs mérések végzése. Laboratóriumi körülmények között elektronikai mérések, kisfeszültségű (Az 1kV-nál nem nagyobb feszültségszint) AC ás DC mérések. Külsős harmadik feles laboratóriumi vizsgálatok megszervezése. Különböző tanúsítványok (CE, UL, CSA, VDE) megszerzésének a megszervezése.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--*************************************************************-->
+                <div class="col-sm-12">
+                    <br>
+                </div>
+                <div class="card-reference card_responsive">
+                    <div class="card-body">
+                        <div class="col-sm-12 ">
+                            <h2>Nyomtatott elektronikai lapok gyártásának megszervezése</h2>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Végeleges nyomtatott áramköri lapok gyártásának a megszervezése. Alkatrészek beszerzési forrásának a felkutatása. Elektronikai alkatrészek hosszútávú felhasználhatóságának a megvizsgálása. Gerber, tábla gerber készítése. Gyártási paraméterek meghatározása. Kommunikáció a PCB gyártóval. Alkatrész beszerzés támogatása.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h4>Nyomtatott elektronikai lapok beültetése</h4>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Kis darabszámú elektronikai nyomtatott áramkörök ültetése kézi forrasztással. Kis, illetve nagy darabszámú nyomtatott áramkörök beültetésének megszervezése külső gyártóval. Gyártói fájlok készítse PCB CAD szoftver segítségével. Közös munka a külső gyártóval.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h4>Nyomtatott elektronikai lapok élesztése</h4>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Lásd Villamos tesztelés részt</p>
+                        </div>
+                    </div>
+                </div>
+                <!--*************************************************************-->
+                <div class="col-sm-12">
+                    <br>
+                </div>
+                <div class="card-reference card_responsive">
+                    <div class="card-body">
+                        <div class="col-sm-12 ">
+                            <h2>Firmware, szoftver fejlesztés</h2>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Mikrovezérlőn, SOC-n, beágyazott rendszeren futó firmware-k, szoftverek fejlesztése. Egyedi szoftver fejlesztés, különböző architektúrájú vezérlőkön, számítógépeken. (ARM, X86, stb.).</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <!--<h3>Ipari, vagy nem ipari hálózatok lehetnek:</h3>-->
+                        </div>
+                        <div class="col-sm-12 ">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Analóg, digitális jelfeldolgozás,</li>
+                                <li class="list-group-item">Ipari kommunikációs protokollok megvalósítása. Pl MODBUS.</li>
+                                <li class="list-group-item">Egyedi kommunikációs protokollok megvalósítása,</li>
+                                <li class="list-group-item">Skaláris, illetve vektor vezérlésű (FOC) motor control-ok,</li>
+                                <li class="list-group-item">Egyedi vezérlések, szabályozások.,</li>
+                                <li class="list-group-item">adatbázisok tervezése,</li>
+                                <li class="list-group-item">Szerveren futó háttér alkalmazások,</li>
+                                <li class="list-group-item">Android APP-ok,</li>
+                                <li class="list-group-item">WEB APP-ok,</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h4>Firmware fogalma</h4>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Az elektronikai rendszerekben és a számítástechnika területén firmware alatt azokat a rögzített, többnyire kis méretű programokat és/vagy adatstruktúrákat értjük, melyek különböző elektronikai eszközök vezérlését végzik el.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <a href="https://hu.wikipedia.org/wiki/Firmware" target="_blank">hu.wikipedia.org<a>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h4>Szoftware fogalma</h4>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>A szoftver alatt a legszűkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedő, azokat működtető programokat értünk.</p>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <a href="https://hu.wikipedia.org/wiki/Szoftver" target="_blank">hu.wikipedia.org<a>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>Programozási nyelvek</h3>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">C/C++,</li>
+                                <li class="list-group-item">JavaScript,</li>
+                                <li class="list-group-item">HTML5,</li>
+                                <li class="list-group-item">Php,</li>
+                                <li class="list-group-item">Java,</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>Szoftver - firmware kiegészítő komponensek:</h3>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">CSS,</li>
+                                <li class="list-group-item">JQuery,</li>
+                                <li class="list-group-item">SQL,</li>
+                                <li class="list-group-item">ST motor control workbench,</li>
+                                <li class="list-group-item">node js,</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>Fejlesztő környezetek</h3>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">microsoft studio code,</li>
+                                <li class="list-group-item">eclipse ide,</li>
+                                <li class="list-group-item">codeblocks ide,</li>
+                                <li class="list-group-item">stm32cubeide,</li>
+                                <li class="list-group-item">iar,</li>
+                                <li class="list-group-item">keil,</li>
+                                <li class="list-group-item">android studio,</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>Verziókövetés</h3>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Mind a firmware/szoftver, mind az elektronikai fejlesztéseinket belső verziókövető rendszeren keresztül kezeljük.</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <br>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <h3>Dokumentációk</h3>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p>Fejlesztési dokumentációk készítése. Különböző szoftver, firmware modulok dokumentálása. Felhasználói kézikönyv készítése. A dokumentációs rendszereink: gitlab wiki, microsoft world, libreoffice writer, google docs szövegszerkesztő. A dokumentációs rendszereink a verziókövető rendszerünkkel össze vannak kötve</p>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <img class="banner-pic" src="img/logos.png" alt="pcb.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="container p-3 my-3 bg-dark text-white">
+                <h1>Elektronikai fejlesztési képességek</h1>
+                <p>menedzsment, tervezés, fejlesztés, tesztelés, gyártás.</p>
+                <a href="skills.html" class="btn btn-primary">Tovább</a>
+            </div>
+        </div>
+
+        <div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="http://albapartiscum.hu" target="_blank">AlbaPartiscum</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://apit.hu" target="_blank">apit.hu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://kivit.hu" target="_blank">kivit.hu</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropup">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Projektek
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://loragrow.hu" target="_blank">Loragrow HUN</a>
+                                <a class="dropdown-item" href="https://loragrow.eu" target="_blank">Loragrow EU</a>
+                                <a class="dropdown-item" href="https://git.apit.hu" target="_blank">AP git</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Kapcsolat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="references.html">Referenciák</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </body>
+</html>
+
+
